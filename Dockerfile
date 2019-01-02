@@ -1,4 +1,4 @@
-FROM python:latest
+FROM python:alpine
 
 RUN pip install requests bs4 cherrypy lxml
 ADD fxserver-version.py ./
