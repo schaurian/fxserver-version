@@ -4,7 +4,7 @@ import cherrypy
 
 
 def get_version():
-    page = requests.get('https://runtime.fivem.net/artifacts/fivem/build_client/master/')
+    page = requests.get('https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/')
 
     soup = BeautifulSoup(page.text, 'lxml')
 
